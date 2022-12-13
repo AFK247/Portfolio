@@ -56,7 +56,7 @@ const Mywork = () => {
             <p className=" text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
               My Work
             </p>
-            <p className="py-6">These are the Projects I've worked with</p>
+            <p className="py-6">These are the Projects I've worked with.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 p-0 sm:p-4 m-4 sm:m-0 ">
