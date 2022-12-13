@@ -58,7 +58,6 @@ const Mywork = () => {
             </p>
             <p className="py-6">These are the Projects I've worked with.</p>
           </div>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 p-0 sm:p-4 m-4 sm:m-0 ">
             {works.map((work) => <Work key={work.id} work={work}></Work>)}
           </div>
