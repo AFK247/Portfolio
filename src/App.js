@@ -6,8 +6,6 @@ import Home from './components/Home';
 import Main from './components/Main';
 import Mywork from './components/Mywork';
 import ProjecDetails from './components/ProjecDetails';
-import ProjecDetails1 from './components/ProjecDetails1';
-import ProjecDetails2 from './components/ProjecDetails2';
 import Skills from './components/Skills';
 
 function App() {
@@ -37,20 +35,10 @@ function App() {
           element:<Skills></Skills>
         },
         {
-          path:"/project/1",
-         
+          path:"/project/:id",
           element:<ProjecDetails></ProjecDetails>
         },
-        {
-          path:"/project/2",
-         
-          element:<ProjecDetails1></ProjecDetails1>
-        },
-        {
-          path:"/project/3",
-         
-          element:<ProjecDetails2></ProjecDetails2>
-        },
+       
 
         
       ]

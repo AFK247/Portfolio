@@ -3,6 +3,7 @@ import React from 'react';
 import { Button } from "react-bootstrap";
 import { BsGithub } from "react-icons/bs";
 import {  CgWebsite } from "react-icons/cg";
+import { Link } from 'react-router-dom';
 
 const Work = ({work}) => {
     return (
@@ -14,15 +15,19 @@ const Work = ({work}) => {
                 </figure>
                 <div className="p-4">
                   <div className="p-2">
-                    <div className="flex ">
-                      <h2 className=" text-2xl">{work.name}</h2>
-                    </div>
+                    <div className="flex gap-4">
+                      <h2 className=" text-2xl ">{work.name}</h2>
+                      <Link
+                        className="bg-gray-700 btn btn-primary btn-sm ml-4"
+                        to={`/project/${work.id}`}
+                      >Details</Link>
+                    </div> 
                     <p className="mt-3">{work.details}</p>
                   </div>
                   <div className="flex justify-evenly p-1">
                     <Button
                       className="bg-gray-700 hover:outline outline-red-400 btn-sm"
-                      href={work.client}
+                      href={work.live}
                       target="_blank"
                     >
                       {" "}

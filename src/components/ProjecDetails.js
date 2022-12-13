@@ -1,4 +1,5 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 // import isp from "../assets/isp.png";
 // import isp1 from "../assets/isp1.png";
 // import isp2 from "../assets/isp2.png";
@@ -12,7 +13,8 @@ import lap2 from "../assets/lap2.png";
 // import photo2 from "../assets/photo2.png";
 
 const ProjecDetails = ({temp}) => {
-
+    const {id}=useParams();
+    console.log(id);
     // const works = [
     //     {
     //       id: 1,
