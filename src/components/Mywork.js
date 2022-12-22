@@ -38,15 +38,6 @@ const Mywork = () => {
       client: "https://github.com/AFK247/Pro-Photography-Client",
       server: "https://github.com/AFK247/Pro-Photography-Server",
     },
-    // {
-    //     id: 4,
-    //     name:"Pin Generator",
-    //     detail: "A website for buying and selling used laptop.Seller Can post new Laptop ,Buyers Can buy Laptop",
-    //     image: pin,
-    //     live: "https://mellow-meerkat-497a8a.netlify.app/",
-    //     client: "https://github.com/AFK247/pin-generator",
-    //     server: "https://github.com/AFK247/pin-generator",
-    // },
   ];
   return (
     <div id="project" className="mt-16">
